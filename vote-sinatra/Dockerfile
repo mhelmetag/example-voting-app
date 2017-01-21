@@ -7,8 +7,6 @@ RUN bundle install
 
 ADD . /app
 
-EXPOSE 4567
+EXPOSE 80
 
-ENV PORT 4567
-
-CMD ["ruby", "app:app"]
+CMD ["ruby", "app.rb"]

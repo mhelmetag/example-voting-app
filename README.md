@@ -15,9 +15,9 @@ The app will be running at [http://localhost:5000](http://localhost:5000), and t
 Architecture
 -----
 
-![Architecture diagram](architecture.png)
+![Architecture diagram](architecture-sinatra.png)
 
-* A Python webapp which lets you vote between two options
+* A ~~Python~~ Ruby webapp which lets you vote between two options
 * A Redis queue which collects new votes
 * A .NET worker which consumes votes and stores them in…
 * A Postgres database backed by a Docker volume
