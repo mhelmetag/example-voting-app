@@ -8,7 +8,11 @@ Download [Docker for Mac or Windows](https://www.docker.com).
 
 Run in this directory:
 
-    $ docker-compose up
+    $ docker-compose -f docker-compose-sinatra.yml up
+
+Rebuild and run:
+
+    $ docker-compose -f docker-compose-sinatra.yml up --build
 
 The app will be running at [http://localhost:5000](http://localhost:5000), and the results will be at [http://localhost:5001](http://localhost:5001).
 
