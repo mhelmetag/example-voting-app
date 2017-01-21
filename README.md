@@ -32,3 +32,8 @@ Note
 ----
 
 The voting application only accepts one vote per client. It does not register votes if a vote has already been submitted from a client.
+
+Link to Slides
+----
+
+Slides can be found [here](https://docs.google.com/presentation/d/1s49uz3DNc2TVd9rIu8_nWHjk4b0gYm5B_0wWUFbxC14/edit?usp=sharing).
